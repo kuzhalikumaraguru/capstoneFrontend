@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const AxiosService = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://capstonebackend-1ast.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
